@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA sign-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-section">
+        <h2>Want to know more about DNA?</h2>
+        <h3>Hurry up and Join!</h3>
+        <form action="dna.html">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label>Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option><br>
+            </select><br>
+
+            <label>School status:</label>
+            <div class="checkbox-group">
+                <input type="radio" id="g10" name="grade" value="G10">
+                <label for="g10">Primary</label>
+
+                <input type="radio" id="g11" name="grade" value="G11">
+                <label for="g11">Middle</label>
+
+                <input type="radio" id="g12" name="grade" value="G12">
+                <label for="g12">Secondary</label>
+
+                <input type="radio" id="other" name="grade" value="Other">
+                <label for="other">Other</label><br>
+            </div>
+
+            <a href="dna.html"><button type="submit" src="dna.html">HAYA!</button></a>
+        </form>
+        </div>
+</body>
+</html>
